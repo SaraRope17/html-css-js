@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Nanum+Gothic+Coding&family=Poppins:wght@200&display=swap');
+
+body {
+    background-color: #940c05;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: 'Nanum Gothic Coding', monospace;
+    margin: 30px 100px;
+}
+
+p {
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px 50px;
+}
+
+table {
+    color:aliceblue;
+    font-family: 'Fira Mono', monospace;
+    margin: 80px auto;
+}
