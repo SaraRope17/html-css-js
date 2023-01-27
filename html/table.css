@@ -21,3 +21,30 @@ table {
     font-family: 'Fira Mono', monospace;
     margin: 80px auto;
 }
+
+h2 {
+    color: aliceblue;
+    font-family: 'Nanum Gothic Coding', monospace;
+    margin: 30px 100px;
+}
+
+h3 {
+    color: aliceblue;
+    font-family: 'Nanum Gothic Coding', monospace;
+    margin: 30px 100px;
+}
+
+form {
+    color:aliceblue;
+    font-family: 'Fira Mono', monospace;
+    margin: 0 100px 100px 100px; /* las direcciones funcionan como las manecillas de un reloj */
+}
+
+li {
+    color: aliceblue;
+    margin: 0 100px 0px 100px;
+}
+
+a {
+    color: aliceblue;
+}
