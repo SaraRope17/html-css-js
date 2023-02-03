@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+}
+
+h1 {
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 80px;
+    text-align: center; /* centrar texto*/
+}
