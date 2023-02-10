@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Liu+Jian+Mao+Cao&family=Nanum+Gothic+Coding&family=Nanum+Myeongjo&family=Poppins:wght@200&display=swap');
 
 body {
     background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
@@ -8,4 +8,53 @@ h1 {
     font-family: 'Liu Jian Mao Cao', cursive;
     font-size: 80px;
     text-align: center; /* centrar texto*/
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 14px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+nav {
+    text-align: center;
+    background-color:black;
+    padding: 10px 0px;
+}
+
+nav a {
+    color:grey;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:white;
+    border: 1px solid white;
+}
+
+h1 a {
+    color:forestgreen;
+    text-decoration: none;
+}
+
+img {
+    border: 5px solid black;
+}
+
+img:hover {
+    border: 5px solid white;
+}
+
+main {
+    margin: auto;
+    width: 70%;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.blog-entry {
+    padding: 2em;
 }
