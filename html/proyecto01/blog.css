@@ -1,7 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Liu+Jian+Mao+Cao&family=Nanum+Gothic+Coding&family=Nanum+Myeongjo&family=Poppins:wght@200&display=swap');
+:root {
+    /* colour palette */
+    --main: #eecfd4;
+    --secondary: #EF476F;
+    --third: #FFD166;
+    --fourth: #06D6A0;
+    --fifth: #074F57;
+}
 
 body {
-    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+    background-color: var(--main);
 }
 
 h1 {
@@ -18,31 +25,30 @@ nav li {
 
 nav {
     text-align: center;
-    background-color:black;
+    background-color:var(--secondary);
     padding: 10px 0px;
 }
 
 nav a {
-    color:grey;
+    color: var(--third);
     text-decoration: none;
 }
 
 nav a:hover {
-    color:white;
-    border: 1px solid white;
+    color:var(--fourth);
 }
 
 h1 a {
-    color:forestgreen;
+    color: var(--fifth);
     text-decoration: none;
 }
 
 img {
-    border: 5px solid black;
+    border: 5px solid var(--fourth);
 }
 
 img:hover {
-    border: 5px solid white;
+    border: 5px solid var(--third);
 }
 
 main {
