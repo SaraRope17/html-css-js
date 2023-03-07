@@ -27,11 +27,14 @@ nav {
     text-align: center;
     background-color:var(--secondary);
     padding: 10px 0px;
+    
 }
 
 nav a {
     color: var(--third);
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 nav a:hover {
@@ -43,17 +46,35 @@ h1 a {
     text-decoration: none;
 }
 
-img {
+.img-home {
     border: 5px solid var(--fourth);
 }
 
-img:hover {
+.img-home:hover {
     border: 5px solid var(--third);
 }
 
 main {
     margin: auto;
     width: 70%;
+}
+
+footer {
+    text-align: center;
+    background-color:var(--secondary);
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.fa-brands {
+    color: #ef476f;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    margin: 0 0 0 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .main-container {
@@ -65,11 +86,85 @@ main {
     padding: 2em;
 }
 
+.video .title2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center
+}
+
+.video {
+    /* background-color: red; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 30px;
+}
+
+.tour-img {
+    width: 600px;
+    height: 400px;
+}
+
+.tour {
+    /* background-color: blue; */
+    /* width: 80%; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: stretch;
+    gap: 20px ;
+}
+
+.top-top5list hr {
+    color: white;
+}
+
+.top-top5list {
+    height: 100%;
+}
+
+
+.top-cover {
+    /* background-color: red; */
+    height: 100%;
+
+}
+
 .top {
-    
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+}
+
+.review-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 25px;
+    width: 90%;
 }
 
 .review {
-    
-    height: 500px;
+    width: 78%;
+}
+
+.tour .title2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center
+}
+.review .title2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center
+}
+
+.title {
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 50px;
+    text-align: left;
 }
