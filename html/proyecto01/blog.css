@@ -115,7 +115,7 @@ aside {
     flex-direction: column;
     align-items: center;
     align-content: stretch;
-    gap: 20px ;
+    gap: 20px;
 }
 
 .top-top5list hr {
@@ -124,7 +124,10 @@ aside {
 
 .top-top5list {
     height: 100%;
+    text-align: center;
+
 }
+
 
 
 .top-cover {
@@ -138,6 +141,7 @@ aside {
     display: flex;
     justify-content: space-evenly;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .review-text {
